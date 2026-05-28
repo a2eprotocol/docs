@@ -20,7 +20,7 @@ const logoDark = getSvgDataUrl('../assets/logo-dark.svg')
 export default withMermaid({
   title: 'A2E Protocol',
   description: 'Agent-to-Environment Protocol — Python SDK Documentation & Protocol Specification',
-  base: '/',
+  base: '/docs/',
   themeConfig: {
     logo: {
       light: logoLight,
