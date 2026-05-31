@@ -36,11 +36,11 @@ export default withMermaid({
     ],
     sidebar: sidebar,
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/a2eprotocol/a2e' }
+      { icon: 'github', link: 'https://github.com/a2eprotocol/python-sdk' }
     ],
     footer: {
       message: 'A2E Protocol v1.0 — Released under the MIT License.',
-      copyright: 'Copyright 2024-2026 A2E Contributors'
+      copyright: 'Copyright 2026 Cynepia Technologies'
     },
     search: {
       provider: 'local'

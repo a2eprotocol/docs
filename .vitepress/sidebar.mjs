@@ -40,7 +40,8 @@ export default [
       { text: "Skills", link: "/capabilities/skills" },
       { text: "Toolkits", link: "/capabilities/toolkits" },
       { text: "Chains", link: "/capabilities/chains" },
-      { text: "MCP Bridge", link: "/capabilities/mcp" }
+      { text: "MCP Bridge", link: "/capabilities/mcp" },
+      { text: "Subagents", link: "/capabilities/subagents" }
     ]
   },
   {
@@ -61,7 +62,30 @@ export default [
       { text: "Writing a Plugin", link: "/cookbook/writing-a-plugin" },
       { text: "Environment Agent Loop", link: "/cookbook/env-agent-loop" },
       { text: "Chain Pipeline", link: "/cookbook/chain-pipeline" },
-      { text: "MCP Integration", link: "/cookbook/mcp-integration" }
+      { text: "MCP Integration", link: "/cookbook/mcp-integration" },
+      { text: "MCP Bridge (Plugin & Client)", link: "/cookbook/mcp-bridge" },
+      { text: "Memory (Plugin & Client)", link: "/cookbook/memory-plugin" },
+      { text: "Custom Tools (Plugin & Client)", link: "/cookbook/custom-tools" },
+      { text: "Toolkit Builder (Plugin & Client)", link: "/cookbook/toolkit-builder" },
+      { text: "Subagent Orchestrator (Plugin & Client)", link: "/cookbook/subagent-orchestrator" }
+    ]
+  },
+  {
+    text: "Resources",
+    collapsed: false,
+    items: [
+      { text: "Glossary", link: "/resources/glossary" },
+      { text: "FAQ", link: "/resources/faq" },
+      { text: "Security & Trust", link: "/resources/security-trust" },
+      { text: "Support", link: "/resources/support" },
+      { text: "Changelog", link: "/resources/changelog" }
+    ]
+  },
+  {
+    text: "Blog",
+    collapsed: false,
+    items: [
+      { text: "The Harness Is the Product", link: "/blog/2026-05-21-the-harness-is-the-product" }
     ]
   }
 ]

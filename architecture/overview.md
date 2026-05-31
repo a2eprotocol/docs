@@ -112,5 +112,8 @@ Plugins declare a `priority` (int, default 0). When a message type has multiple 
 4. Transport-agnostic — the same client/server code works over HTTP or in-process
 5. Audit by default — every plugin handler records timing, byte sizes, and success/error
 
-**Future Plans:**
-1. Authentication beyond a single `auth_token` — no OAuth, no mTLS, no RBAC
+**Risks:**
+1. No authentication beyond a single `auth_token` — no OAuth, no mTLS, no RBAC
+2. No test suite found in the repository — critical for a protocol implementation
+3. Some cookbook tools have security issues (`python_eval_tool` uses bare `exec()`)
+4. Debug artifacts in cookbook files (`pdb.set_trace()` left in `mcp_api.py`)
